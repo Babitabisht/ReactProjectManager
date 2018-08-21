@@ -1,5 +1,5 @@
-<h1 style="color:orange">This is a simple Project Manager App on React created with the help of create-react-app  tool  </h1>
-<h2 style="color:yellow">Here is  the information about create  create-react-app </h2>
+<h1 style="color:#f03c15">This is a simple Project Manager App on React created with the help of create-react-app  tool  </h1>
+<h2 style="color:#c5f015">Here is  the information about create  create-react-app </h2>
 
 
 
