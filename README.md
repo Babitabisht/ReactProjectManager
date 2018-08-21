@@ -1,3 +1,8 @@
+<h1 style="color:orange">This is a simple Project Manager App on React created with the help of create-react-app  tool  </h1>
+<h2 style="color:yellow">Here is  the information about create  create-react-app </h2>
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

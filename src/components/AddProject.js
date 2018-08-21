@@ -58,17 +58,17 @@ export class AddProject extends Component {
           <div>
           <label>
           Title
-          </label> <br />
+          </label> <br /><br />
           <input type="text" 
           ref="title"
           /> 
           </div>
 
 
-          <div>
+          <div> <br />
           <label>
           Category
-          </label> <br />
+          </label> <br /> <br />
           
           <select ref="category">
             {categoryOptions}
