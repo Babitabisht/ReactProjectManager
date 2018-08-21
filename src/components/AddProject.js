@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import { ProjectItem } from "./ProjectItem";
+import {default as UUID} from "node-uuid";
+import PropTypes from 'prop-types'
+
 
 export class AddProject extends Component {
 
@@ -17,13 +19,15 @@ export class AddProject extends Component {
     }
 
     handleSubmit(e){
-      if(this.refs.title.value===''){
+      if(this.refs.title.value===''){ 
+
         alert('Title is required');
+
       }else{
 
         this.setState({
             newProject:{
-
+                id:UUID.v4(),
                 title:this.refs.title.value,
                 category:this.refs.category.value
 
@@ -80,4 +84,10 @@ export class AddProject extends Component {
           </div>
         );
   }
+}
+
+AddProject.propTypes = {
+    
+addProject:PropTypes.func
+
 }
